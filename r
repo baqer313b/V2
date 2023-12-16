@@ -1,4 +1,78 @@
+import os
 try:
+    import requests
+except ImportError:
+    print("\n[\x1b[1;91m!\x1b[0m] tunggu sebentar sedang menginstall requests\n")
+    os.system("pip install requests")
+
+try:
+    import rich
+except ImportError:
+    print("\n[\x1b[1;91m!\x1b[0m] tunggu sebentar sedang menginstall rich\n")
+    os.system("pip install rich")
+
+import requests, sys, time, re, random
+from concurrent.futures import ThreadPoolExecutor as Modol
+from rich.progress import Progress, TextColumn
+from bs4 import BeautifulSoup as par
+from time import time as mek
+
+M = '\x1b[1;91m' # MERAH
+O = '\x1b[1;96m' # BIRU MUDA
+N = '\x1b[0m'    # WARNA MATI
+H = '\x1b[1;92m' # HIJAU
+K = '\x1b[1;93m' # KUNING
+
+
+def xox(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.01)
+
+
+def banner():
+	print("%s╔══════════════════════════════════════════╗"%(Z))
+	print("%s║%s  Programmed   : %s اداة 🔱 نمــࢪود 🔱 VIP.                     %s║"%(Z,B,M,Z))
+	print("%s║%s  Channel      : @py_1hon %s                 ║"%(Z,B,Z))
+	print("%s║%s  Telegram     : @M_T_F       %s            ║"%(Z,B,Z))
+	#print("%s║%s  Version      : %s1.1v                     %s║"%(Z,B,H,Z))
+	print("%s╚══════════════════════════════════════════╝"%(Z))
+	print("")
+	print('            %s》%s》%s》%s🔱 نمــࢪود 🔱%s《%s《%s《'%(M,H,B,H,B,H,M))
+	print("")
+	print(F"""{asu}
+	
+   {B}« {C}VIP ال🔱 نمــࢪود 🔱{B}»
+{P}┏{B}━━━━━━━━━━━━━━━━━━━━━━━━━━{P}┓    
+{B}┃{C} ⌯ Telegram {B}› {C}  @M_T_F {B} 	┃
+{P}┗{B}━━━━━━━━━━━━━━━━━━━━━━━━━━{P}┛              
+""")
+
+				
+def SDM():
+	try:
+		token = open('.token.txt','r').read()
+		cok = open('.cok.txt','r').read()
+		tokenku.append(token)
+		try:
+			sy = requests.get('https://graph.facebook.com/me?fields=id,name&access_token='+tokenku[0], cookies={'cookie':cok})
+			sy2 = json.loads(sy.text)['name']
+			sy3 = json.loads(sy.text)['id']
+			menu(sy2,sy3)
+		except KeyError:
+			login_lagi334()
+		except requests.exceptions.ConnectionError:
+			li = '# PROBLEM INTERNET CONNECTION, CHECK AND TRY AGAIN'
+			lo = mark(li, style='red')
+			sol().print(lo, style='cyan')
+			exit()
+	except IOError:
+		login_lagi334()
+
+
+def login_lagi334():
+	try:
 		
 		asu = random.choice([m,k,h,b,u])
 		os.system('clear')
